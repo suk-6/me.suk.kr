@@ -9,18 +9,19 @@ body {
 
 /* Structure */
 .containers {
-    margin-top: 3rem;
-    margin-left: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
 }
 
 .container {
     margin-bottom: 1rem;
+    line-height: 2rem;
 }
 
 .header {
     text-align: center;
-    font-size: 3rem;
-    margin: 2rem;
+    font-size: 3.5rem;
+    margin: 3rem;
 }
 
 /* Content */
@@ -46,6 +47,10 @@ body {
     margin-left: 1.4rem;
 }
 
+.activity_contents {
+    margin-top: -0.5rem;
+}
+
 /* Tag */
 a {
     text-decoration: none;
@@ -61,4 +66,20 @@ a:hover {
     margin: 0.2rem;
     margin-left: 0.9rem;
     font-size: 1rem;
+}
+
+#title_activity {
+    margin-bottom: 0.5rem;
+}
+
+/* Mobile */
+@media screen and (max-width: 769px) {
+    .containers {
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+        line-height: 2rem;
+    }
+    .activity_contents {
+        margin-top: 0.5rem;
+    }
 }
