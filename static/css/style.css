@@ -3,7 +3,7 @@ html, body, * {
 }
 
 body {
-    background-color: lightgray;
+    background-color: dimgrey;
 }
 
 /* Structure */
@@ -25,7 +25,8 @@ body {
 /* Content */
 .title {
     font-size: 1.5rem;
-    color: #f05d26;
+    /* color: #f05d26; */
+    color: cornflowerblue;
 }
 
 .contents {
@@ -41,7 +42,7 @@ body {
 /* Tag */
 a {
     text-decoration: none;
-    color: steelblue;
+    color: lightcyan;
 }
 
 a:hover {
