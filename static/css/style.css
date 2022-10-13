@@ -9,7 +9,8 @@ body {
 /* Structure */
 .containers {
     display: block;
-    margin-left: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .container {
@@ -24,15 +25,21 @@ body {
 
 /* Content */
 .title {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     /* color: #f05d26; */
     color: cornflowerblue;
 }
 
+.sub-title {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: deepskyblue;
+}
+
 .contents {
     margin: 0.2rem;
-    margin-left: 0.9rem;
-    font-size: 1rem;
+    margin-left: 2.6rem;
+    font-size: 1.1rem;
 }
 
 .sitemap_child {
@@ -47,4 +54,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* ID */
+#sitemap {
+    margin: 0.2rem;
+    margin-left: 0.9rem;
+    font-size: 1rem;
 }
