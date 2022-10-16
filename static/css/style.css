@@ -14,13 +14,13 @@ body {
 }
 
 /* Structure */
-header {
+.header {
     text-align: center;
     font-size: 3.5rem;
     margin: 2.5rem;
 }
 
-footer {
+.footer {
     bottom: 0;
     text-align: center;
     font-size: 0.8rem;
